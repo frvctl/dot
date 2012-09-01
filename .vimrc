@@ -1,6 +1,8 @@
 " Taken from:
 " https://github.com/mbrochh/vim-as-a-python-ide
 
+call pathogen#infect()
+
 " " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
